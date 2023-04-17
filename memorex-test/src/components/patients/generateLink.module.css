@@ -1,0 +1,67 @@
+.generateLinkForm {
+   width: 80%;
+   margin: 30px auto auto auto;
+}
+
+.generateLinkForm div{
+   display: flex;
+   margin: 0 auto;
+   text-align: left;
+}
+
+.linkRadio {
+   display: block !important;
+   height: 50px;
+ }
+
+ .linkRadio div {
+   margin: 10px 0;
+ }
+ 
+ .linkRadio input {  
+   margin: 0 10px 0 0;
+   width: 20px;
+   height: 20px;
+ }
+ 
+ .linkRadio label {
+   width: auto !important;
+   height: 20px;
+ }
+
+ .linkSelect {
+   display: block !important;
+   margin-bottom: 25px;
+ }
+
+ .linkSelect select {
+   border: 2px solid #000;
+ }
+
+ .linkSelect label {
+   margin-bottom: 15px;
+ }
+
+ .generateLinkButton {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   transform: translate(-50%, 0%);
+ }
+
+ .emailPreview {
+   margin-top: 180px;
+ }
+
+ .emailPreview input, .emailPreview label {
+   text-align: left;
+   margin: 10px auto;
+   width: 550px;
+   display: block;
+ }
+
+ .emailPreview input {
+   margin-bottom: 30px;
+   height: 25px;
+   border-width: 2px;
+ }

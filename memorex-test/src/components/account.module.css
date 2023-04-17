@@ -1,0 +1,235 @@
+.tableWrapper, .tableWrapperTests {
+   border-spacing: 0;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tableWrapper thead, .tableWrapperTests thead {
+   position: sticky;
+   top: 0px;
+   margin: 0 0 0 0;
+}
+
+.tableWrapper th, .tableWrapperTests th {
+   padding: 15px 5px;
+   font-size: 20px;
+   background-color: #ccc;
+   min-width: 100px;
+}
+
+.tableWrapper th:not(:last-child), .tableWrapperTests th:not(:last-child){
+   border-right: 2px solid #000;
+}
+
+.tableWrapper td, .tableWrapperTests td {
+   padding: 12px;
+   font-size: 15px;
+}
+
+.tableWrapper td:not(:last-child), .tableWrapperTests td:not(:last-child) {
+   border-right: 2px solid #000;
+}
+
+.tableWrapper tr, .tableWrapperTests tr {
+   width: 100%;
+}
+
+.tableWrapper tr:last-child td {
+   padding-left: 10px;
+   text-align: left;
+} 
+
+.scrollTable {
+   border: 2px solid #000;
+   width: 100% !important;
+   overflow: auto;
+   max-height: 25rem;
+}
+
+.scrollTable table {
+   margin: 0;
+   width: 100%;
+} 
+
+.scrollTableTests {
+   margin: auto;
+   border: 2px solid #000;
+   width: 100% !important;
+   overflow: auto;
+   max-height: 25rem;
+}
+
+.scrollTableTests table {
+   margin: 0;
+   width: 100%;
+}
+
+.scrollTableTests {
+   z-index: 0;
+}
+
+.main {
+   text-align: center;
+}
+
+.accountwrapper {
+   text-align: left;
+   margin-left: 100px;
+}
+
+.accountwrapper h1 {
+   width: 35%;
+   font-size: 34px;
+}
+
+.accountwrapper h3 {
+   padding-left: 50px;
+   font-size: 20px;
+}
+
+.accountwrapper p {
+   font-size: 13px;
+}
+
+.title {
+   display: inline;
+   padding-bottom: 25px;
+}
+
+.companyinfo {
+   display: inline-block;
+   line-height: 5px;
+   padding-left: 15px;
+}
+
+.accountFieldset{
+   margin-left:100px;
+   margin-right:100px;
+   background: #e1eff2;
+}
+label {
+   display: inline-block;
+   width: 120px;
+ }
+ legend {
+   padding: 20px 0;
+   font-size: 20px;
+ }
+
+.arrowImg {
+   border: none;
+   background: none;
+}
+
+.arrowImg img {
+   max-width: 30px;
+   height: auto;
+   padding-bottom: 5px;
+}
+
+.filters {
+   background-color: #fff;
+   width: 100%;
+   text-align: center;
+}
+
+.filters form {
+   background-color: #FFF;
+   padding-top: 10px;
+   margin-top: -100px;
+   width: 100%;
+   position: absolute;
+   bottom: 10px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.filterTitle {
+   border-top: 2px solid #000;
+   width: 100%;
+   bottom: 10px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.filterButtons {
+   width: 275px;
+   display: flex;
+   justify-content: space-between;
+   margin: auto auto 15px auto;
+}
+
+.filterForm {
+   display: flex;
+   width: 80%;
+   margin: auto;
+}
+
+.filterSection {
+   width: 33%;
+   margin: auto auto 15px auto;
+}
+
+.filterSection h4 {
+   margin-bottom: 20px;
+}
+
+.filterSection div {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 10px;
+}
+
+.filterSection input[type="radio"] {
+   margin: 0 -90px 0 0;
+   vertical-align: middle;
+}
+
+.filterSection input[type="number"] {
+   width: 120px;
+   margin: 10px auto 10px auto;
+   display: block;
+}
+
+.editAccountForm {
+   width: 40%;
+   position: relative;
+   word-wrap: break-word;
+   border: none;
+   align-items: center;
+   margin: auto;
+}
+
+.editAccountForm input {
+   height: 33%;
+   padding: 5px;
+}
+
+.editAccountForm label {
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+.scroll {
+   display: block;
+    overflow: auto;
+}
+
+.testImg {
+   width: 500px !important;
+   height: 500px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%) !important;
+   z-index: 1;
+}
+
+.testImg button {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.testImg img {
+   margin: 10px;
+}

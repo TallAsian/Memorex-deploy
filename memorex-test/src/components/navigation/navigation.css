@@ -1,0 +1,31 @@
+
+.dropdownMenu.active{
+    opacity: 1;
+    visibility: visible;
+  }
+ 
+  .dropdownMenu.inactive{
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .aside{
+    position: absolute;
+    top: 10px;
+  }
+
+  .buttonStyle{
+    width: 100%;
+    margin: 0 !important;
+    text-decoration: none;
+    background-color: #FFF;
+    border: none;
+  }
+
+  .buttonStyle:hover {    
+    background-color: #ccc;
+  }
+
+  .sidenav---sidenav-nav---3tvij > .sidenav---sidenav-navitem---uwIJ- > .sidenav---navitem---9uL5T .sidenav---navicon---3gCRo {
+    opacity: 1 !important;
+  }

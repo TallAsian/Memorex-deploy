@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-marchthirteen-dev-134102-authRole",
+      "UnauthRoleArn": "arn:aws:iam::539370044964:role/amplify-marchthirteen-dev-134102-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::539370044964:role/amplify-marchthirteen-dev-134102-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-marchthirteen-dev-134102-deployment",
+      "UnauthRoleName": "amplify-marchthirteen-dev-134102-unauthRole",
+      "StackName": "amplify-marchthirteen-dev-134102",
+      "StackId": "arn:aws:cloudformation:us-east-2:539370044964:stack/amplify-marchthirteen-dev-134102/98eb88f0-c1ce-11ed-9f64-02ce01b4d39c",
+      "AmplifyAppId": "d3j9waajhdnnyq"
+    },
+    "categories": {
+      "auth": {
+        "marchthirteen27cc7c58": {}
+      },
+      "storage": {
+        "memorexFiles": {}
+      }
+    }
+  }
+}

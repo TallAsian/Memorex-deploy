@@ -1,0 +1,92 @@
+* {  
+  font-family: 'Segoe UI';
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input{
+  width: 300px;
+  height: 20px;
+  margin: 10px 5px;
+  border: 3px solid black;
+  font-size: 15px;
+}
+
+.buttons , .indiButtons {
+  background-color: white;
+  height: 30px;
+  width: 200px;
+  box-shadow: 3px 3px 1px 1px #000000;
+  border: 2px solid black;
+}
+
+.buttons:hover, .indiButtons:hover{
+  background-color: rgb(186, 180, 180);
+  height: 30px;
+  width: 200px;
+  box-shadow: 3px 3px 1px 1px #000000;
+  border: 2px solid black;
+}
+
+.text-buttons , .text-indiButtons{
+  text-align: center;
+  margin-top: 10px;
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  color: #0d6efd;
+  text-decoration: underline;  
+  cursor: pointer;
+  width: auto !important;
+}
+
+.error{
+  /* color: #ff3860;
+  display: block;
+  font-size: 1.5rem;
+  margin-top: .25rem; */
+  color: #cc0033;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  text-shadow: 1px 1px rgba(250,250,250,.3);
+  margin-left: 6px;
+}
+
+.input.is-danger, .view-pass-input.is-danger{
+  border-color: #ed6580;
+}
+
+.input:focus, .view-pass-input:focus{
+  border-color: #6495ED;
+}
+
+.patientInput{
+  box-sizing: content-box;
+}
+
+.patientInput.is-danger{
+  border-color: #ed6580;
+}
+
+.form-outline mb-3{
+  margin-bottom: 0px;
+}
+
+.errorIndi{
+  color: #cc0033;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 20px;
+  text-shadow: 1px 1px rgba(250,250,250,.3);
+}

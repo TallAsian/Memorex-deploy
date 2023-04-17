@@ -1,0 +1,62 @@
+.bar {
+   width: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.bar ul {
+   list-style: none;
+   display: flex;
+   padding: 0;
+}
+
+.bar li {
+   font-size: 22px;
+   font-weight: bold;
+   padding: 10px;
+}
+
+.bar a:hover {
+   color: #727272;
+}
+
+.bar a, .bar a:link, .bar a:visited {
+   text-decoration: none;
+   color: #000;
+}
+
+.bar nav {
+   margin: auto;
+}
+
+.mysidenav{
+   background-color: white !important;
+   margin: 0;
+ }
+ .icon{
+   background-color: white ;
+ }
+
+ .imgSettings{
+   cursor: pointer;
+   max-width: 55px;
+   height: auto;
+ }
+
+ .invalidSubscription {
+   width: 60%;
+   margin: 20px auto;
+   padding: 3px;
+   border: 2px solid #cc3737;
+   background-color: #df6666;
+ }
+
+ .navbar {
+   width: 80%;
+   border-bottom: 3px solid #CCC;
+   margin-bottom: 40px !important;
+ }
+
+ .navbar h4 {
+   margin: 10px;
+ }

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.row {
+  background: #f8f9fa;
+  margin-top: 20px;
+}
+
+.col {
+  border: solid 1px #6c757d;
+  padding: 10px;
+}

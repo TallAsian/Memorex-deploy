@@ -1,0 +1,291 @@
+* {  
+  font-family: 'Segoe UI';
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 6px;
+}
+
+form {
+  font-size: 15px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input{
+  width: 300px;
+  height: 20px;
+  margin: 10px 5px;
+  border: 3px solid black;
+  font-size: 15px;
+}
+
+select {
+  width: 309.5px;
+  height: 27.5px;
+  padding: 1px 2px;
+  border: 3px solid black;
+  margin: 10px;
+}
+
+.card {
+  border: none;
+  align-items: center;
+  margin: auto;
+}
+
+.card-body {
+  padding: 0px;
+  text-align: left !important;
+}
+
+.row>* {
+  padding: 0px;
+}
+
+.input-group {
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: right;
+}
+
+.form-control {
+  height: 25px;
+  display: inline;
+  margin-bottom: 15px;
+}
+
+.edit-inputs input {
+  width: 300px !important;
+}
+
+.search-bar-div {
+  width: 95%;
+  height: 45px;
+  text-align: left;
+  display: flex;
+}
+
+
+.buttons , .indiButtons {
+  background-color: white;
+  height: 30px;
+  width: 200px;
+  box-shadow: 3px 3px 1px 1px #000000;
+  border: 2px solid black;
+}
+
+.buttons:hover, .indiButtons:hover{
+  background-color: rgb(186, 180, 180);
+  height: 30px;
+  width: 200px;
+  box-shadow: 3px 3px 1px 1px #000000;
+  border: 2px solid black;
+}
+
+.text-buttons , .text-indiButtons{
+  text-align: center;
+  margin-top: 10px;
+  /* display: block; */
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  color: #0d6efd;
+  text-decoration: underline;  
+  cursor: pointer;
+}
+
+/* .error {
+  position: fixed;
+  width: 600px;
+  height: 40px;
+  top: 0;
+  left: 50%;
+  margin-left: -250px; 
+  background-color: #e24a4a;
+} */
+
+.error{
+  color: #ff3860;
+  display: block;
+  font-size: 1.5rem;
+  margin-top: .25rem;
+}
+
+.login-page {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+
+.radio {
+  margin: 15px 0px 15px 0px;
+  height: 20px;
+  padding: 50px 0px;
+}
+
+.radio input {  
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.radio label {
+  padding-right: 10px;
+}
+
+.register-radio {
+  margin: 0px 0px 25px 0px;
+  height: 20px;
+}
+
+.register-radio input {  
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.register-radio label {
+  width: 140px;
+}
+
+.paymentbutton {
+  background-color: white;
+  height: 30px;
+  width: 200px;
+  box-shadow: 3px 3px 1px 1px #000000;
+  border: 2px solid black;
+}
+.paymentbutton:hover{
+  background-color: rgb(186, 180, 180);
+  height: 30px;
+  width: 200px;
+  box-shadow: 3px 3px 1px 1px #000000;
+  border: 2px solid black;
+}
+
+.paymentheader {
+  margin: 0 0 40px 0;
+}
+
+.FormRow input {
+  width: 97.5%;
+  margin: auto;
+  padding: 5px;
+}
+
+.FormGroup {
+  margin-top: 50px;
+  background-color: #FFF;
+  border: 3px solid black;
+}
+
+.view-pass-icon {
+  padding: 4px;
+  position: absolute;
+  box-sizing: border-box;
+  top: 42%;
+  right: 5px;
+  transform: translateY(-50%);
+}
+
+.view-pass-icon svg {
+  height: 20px;
+  width: 20px;
+}
+
+.view-pass-div {
+  position: relative;
+  width: 300px;
+  margin-bottom: 10px; 
+}
+
+.view-pass-div-forgot-password {
+  position: relative;
+  margin-bottom: 10px; 
+}
+
+.forgot-password-inputs {
+  margin: auto;
+  width: 300px;
+}
+
+.centered-button {
+  text-align: center !important;
+}
+
+.centered-buttons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.centered-button button, .centered-buttons button {
+  text-align: center !important;
+  width: 100%;
+  max-width: 300px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+.view-pass-input {
+  box-sizing:border-box;
+
+}
+
+.input.is-danger, .view-pass-input.is-danger{
+  border-color: #ed6580;
+}
+
+.input:focus, .view-pass-input:focus{
+  border-color: #6495ED;
+}
+
+.anchored-button {  
+  position: absolute !important;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 300px;
+}
+
+.settings-menu {
+  z-index: 1;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.subscription-radio {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.subscription-radio input {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.card-element {
+  padding: 4px 8px;
+  min-height: calc(1.5em + 0.5rem + 2px);
+  border: 1px solid #ced4da !important;
+}
+
+.back-button {
+  margin-left: 86px;
+  width: 85px;
+  padding: 3px 6px;
+}
